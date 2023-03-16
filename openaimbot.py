@@ -64,7 +64,7 @@ class AimAssist:
                     characters.get()
                     second_furthest = characters.get()[1]
 
-                    # Adjust the interpolation fps
+                    # Adjust the interpolation fpspip 
                     if self.interpolation_fps != "unlimited":
                         self.interpolation_fps = distance / 100
 
