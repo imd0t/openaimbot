@@ -64,7 +64,11 @@ class AimAssist:
                     characters.get()
                     second_furthest = characters.get()[1]
 
+<<<<<<< HEAD
                     # Adjust the interpolation fps
+=======
+                    # Adjust the interpolation fpspip 
+>>>>>>> 5a952978d0748046cca7ff1ff44788ec69b0fa7d
                     if self.interpolation_fps != "unlimited":
                         self.interpolation_fps = distance / 100
 
@@ -87,6 +91,7 @@ def main():
     root = tk.Tk()
     root.title("Fortnite Aim Assist")
 
+<<<<<<< HEAD
     def update_labels():
         aiming_down_sights_label.config(text=f"Aiming Down Sights: {aim_assist.aiming_down_sights}")
         hipfire_label.config(text=f"Hipfire: {aim_assist.hipfire}")
@@ -128,3 +133,6 @@ def main():
     if __name__ == "__main__":
     
         main()
+=======
+    # Add some
+>>>>>>> 5a952978d0748046cca7ff1ff44788ec69b0fa7d
